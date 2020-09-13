@@ -1,0 +1,131 @@
+Q1)a)date
+ans:Wed Sep  9 08:06:22 DST 2020
+
+b)cal
+ans:September 2020
+Su Mo Tu We Th Fr Sa
+       1  2  3  4  5
+ 6  7  8  9 10 11 12
+13 14 15 16 17 18 19
+20 21 22 23 24 25 26
+27 28 29 30
+
+c)bc
+ans:bc 1.07.1
+Copyright 1991-1994, 1997, 1998, 2000, 2004, 2006, 2008, 2012-2017 Free Software Foundation, Inc.
+This is free software with ABSOLUTELY NO WARRANTY.
+For details type `warranty'.
+
+$ bc -l
+bc 1.07.1
+Copyright 1991-1994, 1997, 1998, 2000, 2004, 2006, 2008, 2012-2017 Free Software Foundation, Inc.
+This is free software with ABSOLUTELY NO WARRANTY.
+For details type `warranty'.
+3+4
+7
+41+45
+86
+
+d)echo
+ANS: echo -e "hello\n world"
+hello
+ world
+
+ echo "hello\n world"
+hello\n world
+
+echo -e "Geeks \cfor Geeks"
+Geeks
+
+ echo *
+ p1.sh
+
+e)who
+ whoami
+shubham
+
+
+f)seq 5 2 25
+5
+7
+9
+11
+13
+15
+17
+19
+21
+23
+25
+
+h)clear:clear is a standard Unix computer operating system command that is used to clear the terminal screen.
+
+g)uname
+Linux
+
+Q2)a)
+ans:mkdir a b c;
+touch {a,b,c}/{a,b,c}.txt
+ cp -r c a
+
+b)ans:mv b c
+c)ans: alias shubham="ls -lh"
+shubham@DESKTOP-COSEABR:~/pratice1$ shubham
+total 0
+drwxrwxrwx 0 shubham shubham 4.0K Sep  9 14:38 a/
+drwxrwxrwx 0 shubham shubham 4.0K Sep  9 14:41 c/
+drwxrwxrwx 0 shubham shubham 4.0K Sep  9 14:21 e/
+drwxrwxrwx 0 shubham shubham 4.0K Sep  9 14:21 f/
+-rw-rw-rw- 1 shubham shubham   41 Sep  8 23:05 p1.sh
+
+d) mv a cdac
+
+
+Q3)
+A)cat file1.txt>file2.txt >file3.txt >file4.txt 
+cat file1.txt file2.txt file3.txt file4.txt| grep 's'
+
+B)ans:
+
+cat >file.txt
+ nano file.txt
+ cat file.txt
+c)
+ans:
+touch f1 f2 f3 f4 f5
+
+D) ans:
+rm -r a b c
+
+Q4)
+a)vi file1
+shubham@DESKTOP-COSEABR:~/pratice1$ cat file1
+good things takes time
+
+
+b)ans:
+ cat -n file1
+     1  good things takes time
+
+
+c) cat >file1
+1
+5
+6
+7
+tac file1
+7
+6
+5
+1
+
+
+
+
+
+
+
+
+
+
+
